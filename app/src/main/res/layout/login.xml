@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true"
+  android:background="@color/WHITE">
+  <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+ 
+        <!--  Header  Starts-->
+        <LinearLayout android:id="@+id/header"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:focusable="true" 
+  				android:focusableInTouchMode="true"
+                android:paddingTop="20dip">
+                <!-- Logo Start-->
+
+                <!-- Logo Ends -->
+        </LinearLayout>
+        <!--  Header Ends -->
+
+       
+ 
+        <!-- Login Form -->
+        <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="20dip"
+          android:layout_below="@id/header">
+                
+         <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/MAIN_COLOR"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:paddingBottom="35dip"
+                android:text="@string/app_name"/>
+         <!--  Company Label -->
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/MAIN_COLOR"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="@string/loginview_company_txt"/>
+          <EditText             
+          		android:id="@+id/et_company"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/SIEMENS_FONT_DARK_GREY"
+                android:layout_marginTop="2dip"
+                android:layout_marginBottom="5dip"
+                android:singleLine="true"
+                android:background="@drawable/freightgate_edit_text"
+                android:hint="@string/loginview_company_txt"
+                />
+          <!--  Username Label -->
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/MAIN_COLOR"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="@string/loginview_username_txt"/>
+          <EditText             
+          		android:id="@+id/et_username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/SIEMENS_FONT_DARK_GREY"
+                android:layout_marginTop="2dip"
+                android:layout_marginBottom="5dip"
+                android:singleLine="true"
+                android:background="@drawable/freightgate_edit_text"
+                android:hint="@string/loginview_username_txt"
+                />
+          <!--  Password Label -->
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/MAIN_COLOR"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="@string/loginview_password_txt"/>
+          <EditText 
+                android:id="@+id/et_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/SIEMENS_FONT_DARK_GREY"
+                android:layout_marginTop="2dip"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:background="@drawable/freightgate_edit_text"
+                android:hint="@string/loginview_password_txt"/>
+          
+          <!-- Login button -->
+          <Button android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:text="@string/loginview_login_txt"
+                android:textColor="@color/WHITE"
+                android:background="@drawable/freightgate_button_color"
+                android:onClick="wechsleActivity"
+                />
+          <!-- Cancel button -->
+          <Button android:id="@+id/btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="5dip"
+                android:text="@string/loginview_cancel_txt"
+                android:textColor="@color/WHITE"
+                android:background="@drawable/freightgate_button_color"
+                android:onClick="wechsleActivity"
+                />
+          <!-- Error Textview -->
+          <TextView
+                android:id="@+id/tv_error"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="9dip"
+                android:layout_marginTop="15dip"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#AA0000" />
+ 
+        </LinearLayout>
+        <!-- Login Form Ends -->
+  </RelativeLayout>
+</ScrollView>

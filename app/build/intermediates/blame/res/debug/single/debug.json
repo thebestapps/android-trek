@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_box.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/box.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_thumb_checkbox.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/thumb_checkbox.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/layout_trip_manifest.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/layout/trip_manifest.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/layout_login.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_textfield_pressed.9.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/textfield_pressed.9.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_menu_back.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/menu_back.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-xhdpi_app_icon.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/layout_submit_shipment.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/layout/submit_shipment.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/layout_reciev_form.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/layout/reciev_form.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_thumb_down.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/thumb_down.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_location.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/location.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_app_icon.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_reload.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/reload.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/layout_trip_manifest_row.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/layout/trip_manifest_row.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_login_back.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/login_back.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/menu_menu_trip_manifest.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/menu/menu_trip_manifest.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/layout_my_trip_manifest.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/layout/my_trip_manifest.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-xxhdpi_app_icon.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-xxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/layout_my_trip_manifest_row.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/layout/my_trip_manifest_row.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/layout_location_dialog.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/layout/location_dialog.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_thumb_up.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/thumb_up.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_freightgate_edit_text.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/freightgate_edit_text.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_cardreader_not_available.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/cardreader_not_available.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_photo_cross.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/photo_cross.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_my_border.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/my_border.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_mainview_list_selector.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/mainview_list_selector.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/layout_exception_dialog.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/layout/exception_dialog.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_textfield_disabled_selected.9.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/textfield_disabled_selected.9.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_icon_exit.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/icon_exit.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_button_background_normal_white.9.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/button_background_normal_white.9.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_sync.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/sync.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_warning.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/warning.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_textfield_selected.9.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/textfield_selected.9.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_settings.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/icon_settings.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_photo_accept.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/photo_accept.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_navigate.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/navigate.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_photo.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/photo.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_freightgate_button_color.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/freightgate_button_color.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_textfield_disabled.9.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/textfield_disabled.9.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_arrow_left.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/arrow_left.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_logout.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/logout.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_arrow_right.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/arrow_right.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_textfield_default.9.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/textfield_default.9.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_cardreader_red.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/cardreader_red.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-mdpi_agent.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-mdpi/agent.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_button_background_normal.9.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/button_background_normal.9.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable_edit_text.xml.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable/edit_text.xml"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/build/intermediates/res/merged/debug/drawable-hdpi_app_icon.png.flat",
+        "source": "/Users/nathan/Work/Freightgate/code/A_ItrekM/app/src/main/res/drawable-hdpi/app_icon.png"
+    }
+]

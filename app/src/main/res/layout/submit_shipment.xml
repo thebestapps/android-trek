@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:focusable="true"
+    	android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+  
+
+       <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txt_submit_form_shipper"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="50.02"
+                android:background="@drawable/my_border"
+                android:paddingLeft="5dp"
+                android:text="Shipper: Max Power\n742 Evergreen Terrace\nSan Diego\nCa 99999\n\nSHP REF# 111111" />
+
+            <TextView
+                android:id="@+id/txt_submit_form_consignee"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@drawable/my_border"
+                android:paddingLeft="5dp"
+                android:text="Consignee:W.B FAKE COMPANY INC\n11 ANY STREET\nGermany\BW\PO#: A111111-1-H11"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txt_submit_form_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Received in good condition except as noted !"
+            android:textColor="#ff0000" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txt_submit_po_number"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Pro Number:"/>
+
+            <Spinner
+                android:id="@+id/sp_submit_form_po_number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="25" 
+                android:background="@drawable/my_border"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txt_submit_form_deliver_date_label"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Delivery Date:" />
+
+            <TextView
+                android:id="@+id/txt_submit_form_deliver_date_value"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="75"
+                android:background="@drawable/my_border"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="11.11.1111" />
+
+            <TextView
+                android:id="@+id/txt_submit_form_pieces_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Received:" />
+
+            <EditText
+                android:id="@+id/et_submit_form_pieces"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="75"
+                android:background="@drawable/my_border"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:selectAllOnFocus="true" 
+                android:inputType="numberSigned"/>
+
+            <TextView
+                android:id="@+id/txt_submit_form_total_pieces"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingRight="5dp"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/txt_submit_form_weight_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Weight:"/>
+
+            <EditText android:id="@+id/et_submit_form_weight" 
+                android:layout_width="wrap_content" 
+                android:layout_height="match_parent" 
+                android:layout_weight="75" 
+                android:gravity="center_vertical" 
+                android:paddingLeft="5dp"   
+                android:background="@drawable/my_border"
+                android:inputType="text"
+                android:selectAllOnFocus="true"
+                />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_submit_form_take_damage_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:minHeight="80dp"
+                android:minWidth="40dp" 
+                android:drawableRight="@drawable/photo"               
+                android:text="damage picture"
+                android:textAlignment="center"
+                android:paddingLeft="5dp"
+                android:onClick="onButtonClick"
+                />
+
+            <Button
+                android:id="@+id/btn_submit_form_exception"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:minHeight="80dp"
+                android:minWidth="40dp"
+                android:text="exception"
+                android:onClick="onButtonClick" />
+            
+            <Button
+                android:id="@+id/btn_submit_form_take_paid_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:minHeight="80dp"
+                android:minWidth="40dp"
+                android:drawableRight="@drawable/photo"               
+                android:text="payment picture"
+                android:textAlignment="center"    
+                android:onClick="onButtonClick"/>
+            
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Print Name:" />
+
+                <EditText
+                    android:id="@+id/et_submit_form_print_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_submit_form_signature_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:maxHeight="40dp"
+                android:minWidth="80dp"
+                android:text="Clear Signature"
+                android:onClick="onButtonClick" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/signaturelayout"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@drawable/my_border"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/my_border">
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="75"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Did your shipment arrive in good condition?"/>
+
+             <CheckBox
+                android:id="@+id/chk_submit_form_q1"
+                android:button="@drawable/thumb_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="50dp"
+                android:minWidth="50dp" 
+                android:checked="true"
+                android:layout_marginRight="4dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/my_border">
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="75"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Was your driver courteous?" />
+
+             <CheckBox
+                android:id="@+id/chk_submit_form_q2"
+                android:button="@drawable/thumb_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="50dp"
+                android:minWidth="50dp" 
+                android:checked="true"
+                android:layout_marginRight="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"            
+            android:background="@drawable/my_border">
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="75"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="How satisfied were your with your delivery?" />
+
+             <CheckBox
+                android:id="@+id/chk_submit_form_q3"
+                android:button="@drawable/thumb_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="50dp"
+                android:minWidth="50dp"
+                android:checked="true"
+                android:layout_marginRight="4dp"/>
+        </LinearLayout>
+        
+
+            <Button
+                android:id="@+id/btn_submit_form_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:onClick="onButtonClick"
+                android:text="submit" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

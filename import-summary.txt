@@ -1,0 +1,113 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gradle/
+* .gradle/4.6/
+* .gradle/4.6/fileChanges/
+* .gradle/4.6/fileChanges/last-build.bin
+* .gradle/4.6/fileHashes/
+* .gradle/4.6/fileHashes/fileHashes.bin
+* .gradle/4.6/fileHashes/fileHashes.lock
+* .gradle/vcsWorkingDirs/
+* .gradle/vcsWorkingDirs/gc.properties
+* .idea/
+* .idea/gradle.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/modules/
+* .idea/modules/A_ItrekM.iml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* CVS/
+* CVS/Entries
+* CVS/Repository
+* CVS/Root
+* cvs.txt
+* ic_launcher-web.png
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:26.0.0-alpha1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/CVS/Entries => app/src/main/resources/CVS/Entries
+* src/CVS/Repository => app/src/main/resources/CVS/Repository
+* src/CVS/Root => app/src/main/resources/CVS/Root
+* src/com/CVS/Entries => app/src/main/resources/com/CVS/Entries
+* src/com/CVS/Repository => app/src/main/resources/com/CVS/Repository
+* src/com/CVS/Root => app/src/main/resources/com/CVS/Root
+* src/com/cyrilmottier/CVS/Entries => app/src/main/resources/com/cyrilmottier/CVS/Entries
+* src/com/cyrilmottier/CVS/Repository => app/src/main/resources/com/cyrilmottier/CVS/Repository
+* src/com/cyrilmottier/CVS/Root => app/src/main/resources/com/cyrilmottier/CVS/Root
+* src/com/cyrilmottier/android/CVS/Entries => app/src/main/resources/com/cyrilmottier/android/CVS/Entries
+* src/com/cyrilmottier/android/CVS/Repository => app/src/main/resources/com/cyrilmottier/android/CVS/Repository
+* src/com/cyrilmottier/android/CVS/Root => app/src/main/resources/com/cyrilmottier/android/CVS/Root
+* src/com/cyrilmottier/android/listviewtipsandtricks/CVS/Entries => app/src/main/resources/com/cyrilmottier/android/listviewtipsandtricks/CVS/Entries
+* src/com/cyrilmottier/android/listviewtipsandtricks/CVS/Repository => app/src/main/resources/com/cyrilmottier/android/listviewtipsandtricks/CVS/Repository
+* src/com/cyrilmottier/android/listviewtipsandtricks/CVS/Root => app/src/main/resources/com/cyrilmottier/android/listviewtipsandtricks/CVS/Root
+* src/com/cyrilmottier/android/listviewtipsandtricks/widget/CVS/Entries => app/src/main/resources/com/cyrilmottier/android/listviewtipsandtricks/widget/CVS/Entries
+* src/com/cyrilmottier/android/listviewtipsandtricks/widget/CVS/Repository => app/src/main/resources/com/cyrilmottier/android/listviewtipsandtricks/widget/CVS/Repository
+* src/com/cyrilmottier/android/listviewtipsandtricks/widget/CVS/Root => app/src/main/resources/com/cyrilmottier/android/listviewtipsandtricks/widget/CVS/Root
+* src/com/freightgate/CVS/Entries => app/src/main/resources/com/freightgate/CVS/Entries
+* src/com/freightgate/CVS/Repository => app/src/main/resources/com/freightgate/CVS/Repository
+* src/com/freightgate/CVS/Root => app/src/main/resources/com/freightgate/CVS/Root
+* src/com/freightgate/android/CVS/Entries => app/src/main/resources/com/freightgate/android/CVS/Entries
+* src/com/freightgate/android/CVS/Repository => app/src/main/resources/com/freightgate/android/CVS/Repository
+* src/com/freightgate/android/CVS/Root => app/src/main/resources/com/freightgate/android/CVS/Root
+* src/com/freightgate/android/itrekmobile/CVS/Entries => app/src/main/resources/com/freightgate/android/itrekmobile/CVS/Entries
+* src/com/freightgate/android/itrekmobile/CVS/Repository => app/src/main/resources/com/freightgate/android/itrekmobile/CVS/Repository
+* src/com/freightgate/android/itrekmobile/CVS/Root => app/src/main/resources/com/freightgate/android/itrekmobile/CVS/Root
+* src/com/freightgate/android/itrekmobile/activity/CVS/Entries => app/src/main/resources/com/freightgate/android/itrekmobile/activity/CVS/Entries
+* src/com/freightgate/android/itrekmobile/activity/CVS/Repository => app/src/main/resources/com/freightgate/android/itrekmobile/activity/CVS/Repository
+* src/com/freightgate/android/itrekmobile/activity/CVS/Root => app/src/main/resources/com/freightgate/android/itrekmobile/activity/CVS/Root
+* src/com/freightgate/android/itrekmobile/apphelper/CVS/Entries => app/src/main/resources/com/freightgate/android/itrekmobile/apphelper/CVS/Entries
+* src/com/freightgate/android/itrekmobile/apphelper/CVS/Repository => app/src/main/resources/com/freightgate/android/itrekmobile/apphelper/CVS/Repository
+* src/com/freightgate/android/itrekmobile/apphelper/CVS/Root => app/src/main/resources/com/freightgate/android/itrekmobile/apphelper/CVS/Root
+* src/com/freightgate/android/itrekmobile/data/CVS/Entries => app/src/main/resources/com/freightgate/android/itrekmobile/data/CVS/Entries
+* src/com/freightgate/android/itrekmobile/data/CVS/Repository => app/src/main/resources/com/freightgate/android/itrekmobile/data/CVS/Repository
+* src/com/freightgate/android/itrekmobile/data/CVS/Root => app/src/main/resources/com/freightgate/android/itrekmobile/data/CVS/Root
+* src/com/freightgate/android/itrekmobile/data/tables/CVS/Entries => app/src/main/resources/com/freightgate/android/itrekmobile/data/tables/CVS/Entries
+* src/com/freightgate/android/itrekmobile/data/tables/CVS/Repository => app/src/main/resources/com/freightgate/android/itrekmobile/data/tables/CVS/Repository
+* src/com/freightgate/android/itrekmobile/data/tables/CVS/Root => app/src/main/resources/com/freightgate/android/itrekmobile/data/tables/CVS/Root
+* src/com/freightgate/android/itrekmobile/model/CVS/Entries => app/src/main/resources/com/freightgate/android/itrekmobile/model/CVS/Entries
+* src/com/freightgate/android/itrekmobile/model/CVS/Repository => app/src/main/resources/com/freightgate/android/itrekmobile/model/CVS/Repository
+* src/com/freightgate/android/itrekmobile/model/CVS/Root => app/src/main/resources/com/freightgate/android/itrekmobile/model/CVS/Root
+* src/com/freightgate/android/itrekmobile/server/CVS/Entries => app/src/main/resources/com/freightgate/android/itrekmobile/server/CVS/Entries
+* src/com/freightgate/android/itrekmobile/server/CVS/Repository => app/src/main/resources/com/freightgate/android/itrekmobile/server/CVS/Repository
+* src/com/freightgate/android/itrekmobile/server/CVS/Root => app/src/main/resources/com/freightgate/android/itrekmobile/server/CVS/Root
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

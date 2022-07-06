@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2012 Hack
+  von #828D98 bis  #737C86
+ -->
+<resources>
+  
+  <color name="BLACK">#000000</color>
+  <color name="GREEN">#009900</color>
+  <color name="GREY">#878787</color>
+  <color name="GREY_LIGHT">#A8A8A8</color>
+  <color name="WHITE">#FFFFFF</color>
+  <color name="RED">#9A0610</color>
+  
+  
+ <!-- <color name="SIEMENS_LIGHT1_GREY">#AFB4BE</color>
+  <color name="SIEMENS_DARK_GREY">#505A64</color> 
+  <color name="SIEMENS_RED">#9A0610</color> -->
+  <color name="MAIN_COLOR">#3498DB</color>
+  <color name="SIEMENS_FONT_LIGHT_GREY">#999999</color> 
+  <color name="SIEMENS_FONT_DARK_GREY">#333333</color>  
+  <color name="SIEMENS_FONT_TITLE_LIGHT_GREY">#F2F3F4</color> 
+  
+      
+    <drawable name="focused">#3498DB</drawable>
+    <drawable name="color_default">#FFFFFF</drawable>
+    <drawable name="SIEMENS_DARK_GREY">#505A64</drawable>
+    <drawable name="SIEMENS_LIGHT1_GREY">#AFB4BE</drawable>
+    
+
+  
+</resources>
+

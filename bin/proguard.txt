@@ -1,0 +1,30 @@
+# view res/layout/trip_manifest_row.xml #generated:37
+-keep class com.cyrilmottier.android.listviewtipsandtricks.widget.DontPressWithParentCheckBox { <init>(...); }
+
+# view res/layout/trip_manifest_row.xml #generated:105
+-keep class com.cyrilmottier.android.listviewtipsandtricks.widget.DontPressWithParentImageButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.freightgate.android.itrekmobile.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.freightgate.android.itrekmobile.activity.MyTripManifestViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.freightgate.android.itrekmobile.activity.SubmitShipmentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.freightgate.android.itrekmobile.activity.TripManifestViewActivity { <init>(...); }
+
+# onClick res/layout/submit_shipment.xml #generated:163
+# onClick res/layout/submit_shipment.xml #generated:177
+# onClick res/layout/submit_shipment.xml #generated:187
+# onClick res/layout/submit_shipment.xml #generated:233
+# onClick res/layout/submit_shipment.xml #generated:339
+# onClick res/layout/trip_manifest.xml #generated:9
+-keepclassmembers class * { *** onButtonClick(...); }
+
+# onClick res/layout/login.xml #generated:109
+# onClick res/layout/login.xml #generated:99
+-keepclassmembers class * { *** wechsleActivity(...); }
+

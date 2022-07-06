@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <!-- Row 1 with 3 columns -->
+
+	<TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="300dp"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Exception Text"
+            android:textColor="#000000" />
+
+        
+        <EditText
+	        android:id="@+id/et_exception_dialog_exception_text"
+	        android:layout_weight="1"
+	        android:minWidth="150dp"
+	        android:ems="10"
+	        android:inputType="textMultiLine" >
+	
+	        <requestFocus />
+	    </EditText>
+        
+    </TableRow>
+
+
+    <!-- Row 2 with 2 columns -->
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Refused#:"
+            android:textColor="#000000" />
+
+        <EditText
+        android:id="@+id/et_exception_dialog_refused_count"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:ems="10" />
+    </TableRow>
+
+</TableLayout>

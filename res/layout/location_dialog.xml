@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+        android:id="@+id/et_exception_diaolog_exception_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:text="Do you want to do a location update for all listed items ?"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_location_dialog_location"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+    
+</LinearLayout>
